@@ -1,10 +1,10 @@
 # Notes on Financial Forecasting  
+## Why not LSTM
+- The Issue with LSTM is that it using time-series and sequential data to find long term patterns in order to make predictions. I am not looking for long term patterns. It is my hypothesis that snapshots of market prices are 
 
 ## Common Mistakes with using LSTM
 ### 1. Using Min Max Pricing
 - Source https://www.youtube.com/watch?v=aIklUbW0UWI (Lazy Programmer)
-- 
-
 ### 2. Prices as Inputs
 - Source https://www.youtube.com/watch?v=aIklUbW0UWI (Lazy Programmer)
 #### Concepts
@@ -17,7 +17,6 @@
 - *Extrapolation*
   - Not an issue with my current program. Lecture discusses the issue with training within a parameter (Price of stock in training between $5 - $100, and in testing the actual price between $200 - $300)
   - Does not state a solution
-#### Proposed Solutions in Lecture
 
 #### My proposed Solutions and Critic's of Lecture
 1. Stationarity: 
@@ -38,4 +37,3 @@
 
 ### 4. Train-Test Splits
 - Source https://www.youtube.com/watch?v=6t9hKclQNH4&list=TLPQMDcwOTIwMjQVhov7Riy40Q&index=3 (Lazy Programmer)
-#### Concepts
