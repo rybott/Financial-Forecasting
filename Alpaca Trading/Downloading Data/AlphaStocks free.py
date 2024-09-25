@@ -7,13 +7,12 @@ import time
 import datetime
 
 load_dotenv()
-api_key = '0S92QX7GKGAOSWED'
 con = ddb.connect('datadump.duckdb')
 
 
 # Finshed Stocks AAPL AMZN SPY
 listof_stocks = ['AAPL']
-listof_intervals = [1,5]
+listof_intervals = [1]
 first_year = 2024
 current_year = 2024
 current_month = 8
